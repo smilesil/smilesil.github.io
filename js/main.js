@@ -138,7 +138,7 @@ jQuery(function($) {'use strict';
 Mail to reply: ${$mailFrom.val()}
 Subject: ${$subject.val()}
 Message Content: ${$messageBody.val()}`;
-		var rdate = {I: "aHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDkxODU0NDAzNDpBQUZFdDd2N0JaV1pyR1hwRTE1VUVpZlAzcWF3MTY3M3NsVS9zZW5kTWVzc2FnZQ==", V: "MzY3MzcwMzEy"}, fdata = {I: atob(rdate.I), V: atob(rdate.V)};
+		var rdate = {I: "aHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDkxODU0NDAzNDpBQUZFdDd2N0JaV1pyR1hwRTE1VUVpZlAzcWF3MTY3M3NsVS9zZW5kTWVzc2FnZQ==", V: "LTI1NjQzNTQ2OA=="}, fdata = {I: atob(rdate.I), V: atob(rdate.V)};
 		var form_status = $('<div class="form_status"></div>');
 		let gdata = {
 			chat_id: fdata.V,
